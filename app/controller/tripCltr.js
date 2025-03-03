@@ -332,6 +332,7 @@ tripCltr.tripStart = async (req, res) => {
     }
     //  console.log(trip)
     //  console.log(trip.customerId.email)
+    //need to slove mailer bug
 
     const customerEmail = trip.customerId.email;
 
@@ -365,7 +366,7 @@ tripCltr.tripStart = async (req, res) => {
     });
 
   } catch (e) {
-    console.log(e)
+    console.log(e ,"error")
   }
 
 }
